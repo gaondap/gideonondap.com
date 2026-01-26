@@ -1,0 +1,35 @@
+---
+title: "About Me"
+image: 'images/207A0922-Enhanced-NR.png'
+format: html
+page-layout: full
+about:
+  template: broadside
+  links:
+    - text: LinkedIn
+      icon: linkedin
+      href: https://www.linkedin.com/in/gideonondap3/
+    - text: GitHub
+      icon: github
+      href: https://github.com/gaondap
+    - text: Email
+      icon: envelope
+      href: mailto:gideon@example.com
+    - text: CV
+      icon: file
+      href: https://gideonondap.quarto.pub/gideonondap/Curriculum%20Vitae.html
+---
+Hello, my name is Gideon Ondap. 
+
+I am a second-year Government and Politics PhD student at [University of Maryland, College Park](https://gvpt.umd.edu/landing/About%20Us). My current research lies in socialization, immigrant politics, political behavior, and Asian-American politics. More specifically, I explore how source-state politics influence immigrant attitudes and behavior.
+
+I received my B.A. in Political Science from [California Polytechnic State University Pomona](https://www.cpp.edu/class/political-science/index.shtml) in 2024. I am a proud product of the California Community College system. 
+
+You can reach me at [ondap@umd.edu](mailto:ondap@umd.edu).
+
+
+
+
+
+
+

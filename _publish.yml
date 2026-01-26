@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: ac78284a-107d-4b52-9cb4-e8f7672a0582
+      url: https://gideonondap.quarto.pub/gideonondap
