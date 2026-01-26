@@ -14,14 +14,11 @@ about:
       href: https://github.com/gaondap
     - text: Email
       icon: envelope
-      href: mailto:gideon@example.com
-    - text: CV
-      icon: file
-      href: https://gideonondap.quarto.pub/gideonondap/Curriculum%20Vitae.html
+      href: mailto:gideon@umd.edu
 ---
 Hello, my name is Gideon Ondap. 
 
-I am a second-year Government and Politics PhD student at [University of Maryland, College Park](https://gvpt.umd.edu/landing/About%20Us). My current research lies in socialization, immigrant politics, political behavior, and Asian-American politics. More specifically, I explore how source-state politics influence immigrant attitudes and behavior.
+I am a second-year Government and Politics PhD student at [University of Maryland, College Park](https://gvpt.umd.edu/landing/About%20Us). My current research lies in linked fate, race and ethnic politics, and political behavior. More specifically, I explore the attitudes underlying linked fate and its relation to other political attitudes and voting.
 
 I received my B.A. in Political Science from [California Polytechnic State University Pomona](https://www.cpp.edu/class/political-science/index.shtml) in 2024. I am a proud product of the California Community College system. 
 
