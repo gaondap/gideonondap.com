@@ -1,1 +1,1 @@
-Sitemap: https://gaondap.github.io/gideonondap.com/sitemap.xml
+Sitemap: https://gideonondap.com/sitemap.xml
