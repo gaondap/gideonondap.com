@@ -1,5 +1,8 @@
 project:
   type: website
+  resources:
+    - CV/
+    - images/
 
 website:
   title: "Gideon Ondap"
@@ -7,7 +10,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - Curriculum Vitae.qmd
+      - href: Curriculum Vitae.qmd
+        text: Curriculum Vitae
+      - href: about.qmd
+        text: About
 
 format:
   html:
@@ -16,4 +22,5 @@ format:
     toc: true
 
 editor: visual
+
 
