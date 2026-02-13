@@ -1,1 +1,16 @@
 /* css styles */
+/* ===== Landing Page Background ===== */
+
+body.landing {
+  background-image: url("images/dore.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* Optional: remove white content container look */
+body.landing .page-columns {
+  background: transparent;
+}
