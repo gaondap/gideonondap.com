@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -135,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Welcome! I am a second-year Government and Politics Ph.D.&nbsp;student and a 2024-2025 President’s Fellow at the <a href="https://gvpt.umd.edu/landing/About%20Us">University of Maryland, College Park</a> specializing in American Politics and Political Methodology. I study how racial groups develop political attitudes, specifically linked fate.</p>
 <p>I received my B.A. in Political Science from <a href="https://www.cpp.edu/class/political-science/index.shtml">California Polytechnic State University Pomona</a> in 2024 after making my way through the California Community College system. I am a first-generation Filipino immigrant and a proud native of the Coachella Valley.</p>
 <p>In my spare time, I try not to merge my love for basketball and data analytics, <a href="https://pbs.twimg.com/media/HA0CxZKXcAEFFmm?format=jpg&amp;name=large">though I often fail</a>. I also enjoy traveling with my fiancée, live music, reading fantasy novels, and taking care of my three cats.</p>
-<p>You can reach me at <a href="mailto:ondap@umd.edu">ondap[at]umd[dot]edu</a>.</p>
+<p>You can reach me at <a href="mailto:ondap@umd.edu"><span class="math inline">\(\texttt{ondap[at]umd[dot]edu}\)</span></a>.</p>
 
 
 </main></div>
