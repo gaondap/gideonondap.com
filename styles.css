@@ -14,3 +14,33 @@ body.landing {
 body.landing .page-columns {
   background: transparent;
 }
+
+body {
+  font-family: Garamond, "EB Garamond", Georgia, serif;
+}
+
+.navbar, .navbar-brand, .nav-link {
+  font-family: Garamond, "EB Garamond", Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Garamond, "EB Garamond", Georgia, serif;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #3A5A40 !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+  color: #A3B18A !important;
+}
+
+a {
+  color: #3A5A40;
+}
+
+a:hover {
+  color: #A3B18A;
+}
