@@ -66,3 +66,17 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   font-style: normal;
 }
+
+/* Make the image's column a flex box and center the image in it */
+.quarto-about-broadside .about-entity,
+.quarto-about-broadside .about-image-container {
+  display: flex;
+  justify-content: center;   /* horizontal centering */
+  align-items: center;       /* vertical centering, remove if you only want horizontal */
+}
+
+.quarto-about-broadside .about-image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
